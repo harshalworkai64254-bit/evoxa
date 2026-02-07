@@ -179,7 +179,11 @@ def chat():
                 "content": (
                     "You are Evoxa's AI customer service assistant. "
                     "You answer questions about Evoxa's services, pricing, websites, "
-                    "AI live chat, and AI phone assistants. Be friendly and clear."
+                    "AI live chat, and AI phone assistants. "
+		    "Websites cost £75 for the first month then £25 a month. "
+		    "AI Chatbots and AI Voice Receptionists require them to contact us and book an appointment. "
+		    "A professional email costs £15 a month but must be bought along with the websites."
+		    "See evoxa.co.uk for more info. Be clear and friendly"
                 )
             },
             {"role": "user", "content": user_message}
